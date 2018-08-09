@@ -33,7 +33,7 @@ public class UnitOfMeasureRepositoryIT {
 	@Test
 	public void testFindByDescriptionCup() {
 		Optional<UnitOfMeasure> uomOptional = unitOfMeasureRepository.findByDescription("Cup");
-		assertEquals("Teaspoon", uomOptional.get().getDescription());
+		assertEquals("Cup", uomOptional.get().getDescription());
 	}
 	
 }
